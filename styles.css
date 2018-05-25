@@ -50,4 +50,10 @@ footer{
         padding: 14px 16px;
         text-decoration: none;
     }
-    
+    .cleft{
+        padding:30px;
+        margin:2px;
+        font-size:17px;
+        text-align:left;
+        background-color:rgb(122, 158, 224);
+    }    
