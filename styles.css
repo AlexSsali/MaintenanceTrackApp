@@ -2,12 +2,10 @@
     margin:0;
     padding:0;
 }
-
-
 .container{
     background-color: #02141b;
     margin: 0px 0px 0px;
-    padding: 90px
+    padding: 10px
 }
 .container2{
     background-color: #02141b;
@@ -18,7 +16,6 @@ header{
     padding:17px;
     color:rgb(229, 231, 230);
     background-color:rgb(204, 14, 14);
-    
     text-align:center;
 }
 
@@ -37,9 +34,9 @@ footer{
 } */
 .center{
     padding:30px;
-    margin:2px 200px 2px 200px;
+    margin:2px 350px 2px 350px;
     font-size:17px;
-    text-align:center;
+    /* text-align:center; */
     background-color:rgb(47, 47, 45, 0.24);
 }
 ul {
