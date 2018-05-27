@@ -3,40 +3,43 @@
     padding:0;
 }
 .container{
-    background-color: #02141b;
+    background-color: #88ec51;
     margin: 0px 0px 0px;
     padding: 10px
 }
 .container2{
-    background-color: #02141b;
+    background-color: #88ec51;
     margin: 0px 0px 0px;
     padding: 258px
 }
 header{
     padding:17px;
     color:rgb(229, 231, 230);
-    background-color:rgb(204, 14, 14);
+    background-color:rgba(29, 26, 26, 0.884);
     text-align:center;
-}
-
+} 
 footer{
-    background-color:rgb(152, 248, 229);
+    background-color: rgba(29, 26, 26, 0.884);
     text-align:center;
     padding:15px;
     margin:0px 00px ; 
+    
+}
+button{
+    color: dimgrey;
+    size: 10px
 }
 
-/* .footer{
-    background-color:rgb(108, 165, 108);
-    text-align:center;
-    padding:10px;
-    margin:10px 00px ;
-} */
 .center{
     padding:30px;
     margin:2px 350px 2px 350px;
     font-size:17px;
-    /* text-align:center; */
+    background-color:rgb(47, 47, 45, 0.24);
+}
+.center2{
+    padding:30px;
+    margin:2px 35px 30px 40px;
+    font-size:17px;
     background-color:rgb(47, 47, 45, 0.24);
 }
 ul {
@@ -50,6 +53,7 @@ table, th, td {
         border: 1px solid black;
 }
 table{
+    width: 300px;
         border-collapse: collapse;
 }
 input[type=text]{
