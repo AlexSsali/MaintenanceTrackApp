@@ -1,6 +1,6 @@
 <html>
 <head>
-<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+<link rel="stylesheet" href="tables.css">
 <link rel="stylesheet" href="styles.css">
 <title>View requests</title>
 </head>
@@ -9,11 +9,12 @@
     <h2>Maintenance Tracker App</h2>
     </header>
     <ul>
+        <li><a href="user_view.html">User home</a></li>
         <li><a href="create_req.html">Create request</a></li>
         <li style="float:right"><a href="sign_in.html">Sign out</a></li></ul>
     <div class="container">
         <b>LIST OF ALL PREVIOUS REQUESTS MADE </b> 
-        <table class="Table">
+        <table class="Table2">
             <thead>
             <tr>
             <th>Name</th>
@@ -23,9 +24,14 @@
             </tr>
             </thead>
             <tfoot>
+                    <tr>
+                    <td colspan="4">
+                    <div class="links"><a href="#">&laquo;</a> <a class="active" href="#">1</a> <a href="#">2</a> <a href="#">3</a> <a href="#">4</a> <a href="#">&raquo;</a></div>
+                    </td>
+                    </tr>
+                    </tfoot>
             <tr>
-            <td colspan="4">
-            <div class="links"><a href="#">&laquo;</a> <a class="active" href="#">1</a> <a href="#">2</a> <a href="#">3</a> <a href="#">4</a> <a href="#">&raquo;</a></div>
+            
             </td>
             </tr>
             </tfoot>

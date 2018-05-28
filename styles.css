@@ -1,6 +1,7 @@
 *{
     margin:0;
     padding:0;
+    font-family: sans-serif;
 }
 .container{
     background-color: #eeefd7;
@@ -36,6 +37,7 @@ button{
     padding:10px;
     margin:2px 350px 2px 350px;
     font-size:17px;
+    font-family: sans-serif;
     background-color:rgba(195, 195, 123, 0.94);
 }
 .center2{
@@ -135,12 +137,55 @@ table {
   tr:nth-child(even) {
     background-color: #dddddd;
   }
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+input[type=password], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+input[type=email], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
 
+input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
 
+input[type=submit]:hover {
+    background-color: #45a049;
+}
 
-.cellClass { 
-    text-align: center;
-    color: #a9a9a9 }
+div {
+    border-radius: 3px;
+    background-color: #608ee4;
+    padding: 5px;
+}
+
 /* table.Table {
     border: 1px solid rgb(28, 76, 164);
     background-color: rgb(234, 241, 241);
