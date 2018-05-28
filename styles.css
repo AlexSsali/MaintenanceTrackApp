@@ -3,19 +3,21 @@
     padding:0;
 }
 .container{
-    background-color: #88ec51;
+    background-color: #eeefd7;
     margin: 0px 0px 0px;
-    padding: 10px
+    padding: 10px;
+    height:75%;
 }
 .container2{
     background-color: #88ec51;
     margin: 0px 0px 0px;
-    padding: 258px
+    padding: 258px;
+    
 }
 header{
     padding:17px;
-    color:rgb(229, 231, 230);
-    background-color:rgba(29, 26, 26, 0.884);
+    color:rgb(13, 14, 13);
+    background-color:#eeefd7;
     text-align:center;
 } 
 footer{
@@ -31,16 +33,16 @@ button{
 }
 
 .center{
-    padding:30px;
+    padding:10px;
     margin:2px 350px 2px 350px;
     font-size:17px;
-    background-color:rgb(47, 47, 45, 0.24);
+    background-color:rgba(195, 195, 123, 0.94);
 }
 .center2{
     padding:30px;
     margin:2px 35px 30px 40px;
     font-size:17px;
-    background-color:rgb(47, 47, 45, 0.24);
+    background-color:rgb(195, 195, 123, 0.94);
 }
 ul {
         list-style-type: none;
