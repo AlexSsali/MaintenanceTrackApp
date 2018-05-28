@@ -9,7 +9,7 @@
     height:75%;
 }
 .container2{
-    background-color: #88ec51;
+    background-color: #eeefd7;
     margin: 0px 0px 0px;
     padding: 258px;
     
@@ -21,7 +21,7 @@ header{
     text-align:center;
 } 
 footer{
-    background-color: rgba(29, 26, 26, 0.884);
+    background-color:#e4e865 ;
     text-align:center;
     padding:15px;
     margin:0px 00px ; 
@@ -29,7 +29,7 @@ footer{
 }
 button{
     color: dimgrey;
-    size: 10px
+    size: 20px
 }
 
 .center{
@@ -120,11 +120,70 @@ li.dropdown {
     display: block;
 }
 
-/*media querries*/
-@media only screen and (max-width: 600px) {
-    div.container{
-        width:20%;
-        border:auto;
-        background-color: darkseagreen;
-    }
-}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 50%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+
+
+
+.cellClass { 
+    text-align: center;
+    color: #a9a9a9 }
+/* table.Table {
+    border: 1px solid rgb(28, 76, 164);
+    background-color: rgb(234, 241, 241);
+    width: 80%;
+    text-align: left;
+    border-collapse: collapse;
+  }
+  table.Table td, table.Table th {
+    border: 1px solid rgb(12, 12, 12);
+    padding: 3px 2px;
+  }
+  table.Table tbody td {
+    font-size: 16px;
+  }
+  table.Table tr:nth-child(even) {
+    background: #D0E4F5;
+  }
+  table.Table thead {
+    background: rgb(95, 208, 236);
+    background-color: rgb(96, 142, 228);
+  }
+  table.Table thead th {
+    font-size: 15px;
+    font-weight: bold;
+    color: #FFFFFF;
+    border-left: 2px solid #D0E4F5;
+  }
+  table.Table thead th:first-child {
+    border-left: none;
+  }
+  
+  table.Table tfoot {
+    font-size: 14px;
+    font-weight: bold;
+    background: rgb(96, 142, 228);
+  }
+  table.Table tfoot td {
+    font-size: 17px;
+  }
+  table.Table tfoot .links {
+    text-align: right;
+  }
+  table.Table tfoot .links a{
+    display: inline-block;
+    color: rgb(239, 239, 241);} */
+

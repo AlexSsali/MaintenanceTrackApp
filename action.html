@@ -1,6 +1,7 @@
 <html>
 <head>
 <link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="tables.css">
 <title>Administrator</title>
 </head>
 <body>
@@ -10,9 +11,9 @@
     <ul>
         <li><a href="admin_view.html">All user requests</a></li>
         <li><a href="resolve.html">Resolve requests</a></li>
-        <li style="float:right"><a href="sign_in.html">Sign out</a></li>
+        <li style="float:right"><a href="index.html">Sign out</a></li>
         </ul>
-        <div class="container">
+        <!-- <div class="container">
         <b>Confirm action to be sent to Maintenance and repair team</b><br>
         <table>
                 <tr><th>User</th><th>Request date</th><th>Time</th><th>Request</th><th colspan="2">Action</th></tr>
@@ -36,7 +37,77 @@
                     <td>data from db</td>
                     <td><input type="button" value="Approve"</td>
                     <td><input type="button" value="Deny"</td></tr></tr>
-            </table> 
+        </table>  -->
+
+    <div class="container">
+    <b>ALL REQUESTS & DETAILS</b><br><br>
+    <table class="Table2">
+        <thead>
+        <tr>
+        <th>Name of user</th>
+                    <th>Date of placement</th>
+                    <th>Time of placement</th>
+                    <th colspan="2">Action</th>
+                    <th>Comment</th>
+                    </tr>
+                    </thead>
+                    <tfoot>
+                    <tr>
+                    <td colspan="6">
+                    <div class="links"><a href="#">&laquo;</a> <a class="active" href="#">1</a> <a href="#">2</a> <a href="#">3</a> <a href="#">4</a> <a href="#">&raquo;</a></div>
+                    </td>
+                    </tr>
+                    </tfoot>
+                    <tbody>
+                    <tr>
+                    <td>from db</td>
+                    <td>from db</td>
+                    <td>from db</td>
+                    <td align='center'style="width:100px"><form><input type=submit value="Approve" style="width:100px"></form></td>
+                  <td align='center'style="width:100px"><form><input type=submit value="Deny" style="width:100px"></form></td>
+                  <td><textarea name="body"></textarea></td>
+                </tr>
+
+                    </tr>
+                    <tr>
+                    <td>from db</td>
+                    <td>from db</td>
+                    <td>from db</td>
+                    <td align='center'style="width:100px"><form><input type=submit value="Approve" style="width:100px"></form></td>
+                  <td align='center'style="width:100px"><form><input type=submit value="Deny" style="width:100px"></form></td>
+                  <td><textarea name="body"></textarea></td>
+
+                    </tr>
+                    <tr>
+                    <td>from db</td>
+                    <td>from db</td>
+                    <td>from db</td>
+                    <td align='center'style="width:100px"><form><input type=submit value="Approve" style="width:100px"></form></td>
+                  <td align='center'style="width:100px"><form><input type=submit value="Deny" style="width:100px"></form></td>
+                  <td><textarea name="body"></textarea></td>
+
+                    </tr>
+                    <tr>
+                    <td>from db</td>
+                    <td>from db</td>
+                    <td>from db</td>
+                    <td align='center'style="width:100px"><form><input type=submit value="Approve" style="width:100px"></form></td>
+                  <td align='center'style="width:100px"><form><input type=submit value="Deny" style="width:100px"></form></td>
+                  <td><textarea name="body"></textarea></td>
+
+                    </tr>
+                    <tr>
+                        <td>from db</td>
+                        <td>from db</td>
+                        <td>from db</td>
+                        <td align='center'style="width:100px"><form><input type=submit value="Approve" style="width:100px"></form></td>
+                  <td align='center'style="width:100px"><form><input type=submit value="Deny" style="width:100px"></form></td>
+                  <td><textarea name="body"></textarea></td>
+
+                        </tr>
+                    </tbody>
+                    </table>
+                </div>
     </div> 
     <footer>Published by:Alex Ssali Contact:<a href="mailto:kartsali.alex@gmail.com">kartsali.alex@gmail.com</a></footer>    
 </body>
