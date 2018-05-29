@@ -15,16 +15,16 @@
         <div class="cleft">
         Fill out the Request form below.
         <form><br>
-            Date of request <label="DOR"><input type="date"></label><br><br>
-            Time of request<input type="time"><br><br>
+            Date and time of request <input type="datetime-local" name="rqdt"><br><br>
             Type of spare parts needed <select id="tsp">
             <option value="engine">Engine spare</option>
             <option value="break">brake spare</option>
             <option value="cosmetics">Vehicle appearence spare</option>
             <option value="light">Lighting spare</option>
             <option value="wheel">Tyre spare</option>
-            <textarea name="comment" rows="5" cols="70">Write a comment</textarea>
             </select><br><br>
+            Number of items needed <input type="number"><br><br>
+            <textarea name="comment" rows="5" cols="70">Write a descriptioin of your problem</textarea><br><br>
             <button value="place request" id="PR">place request</button>
         </form>
                         
